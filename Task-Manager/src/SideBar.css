@@ -1,0 +1,11 @@
+.SideBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100vh;
+    background: #003F73;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
