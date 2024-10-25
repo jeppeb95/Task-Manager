@@ -3,14 +3,16 @@
     position: fixed;
     left: 0;
     top: 0;
-    width: 150px;
+    width: 200px;
     height: 100vh;
     background: #003F73;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px; 
     padding-top: 30px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .plusKnap {
@@ -40,4 +42,20 @@
 
 .plusKnap:hover span {
     background: #20be4f;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.seperator {
+    height: 1px;
+    width: 70%;
+    background: white;
 }

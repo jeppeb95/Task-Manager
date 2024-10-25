@@ -6,7 +6,13 @@ function SideBar() {
         <div className="SideBar">
 
             {/*Tilføj knap*/}
-            <button className='plusKnap'><span></span><span className='vertikal'></span></button>
+            <div className='buttonContainer'>
+            <button className='plusKnap'><span></span><span className='vertikal'></span>
+            </button>
+            Tilføj opgave
+            </div>
+
+            <div className='seperator'></div>
 
         </div>
     );
