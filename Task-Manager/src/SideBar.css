@@ -1,3 +1,4 @@
+/*Styling af sidebar*/
 .SideBar {
     position: fixed;
     left: 0;
@@ -8,4 +9,35 @@
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px; 
+    padding-top: 30px;
+
+}
+
+.plusKnap {
+    position: relative;
+    background: transparent;
+    border: none;
+    cursor: pointer; 
+    padding: 0; 
+    outline: none;
+    width: 50px;
+    height: 50px;
+}
+
+.plusKnap span {
+    width: 50px;
+    height: 5px;
+    background: white;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    border-radius: 10px;
+    transition: ease-in 0.2s;
+}
+
+.plusKnap span.vertikal {
+    transform: translate(-50%, -50%) rotate(90deg);    
+}
+
+.plusKnap:hover span {
+    background: #20be4f;
 }
