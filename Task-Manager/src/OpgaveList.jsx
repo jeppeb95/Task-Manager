@@ -7,7 +7,7 @@ function OpgaveList({ tasks, onClearTasks }) {
             <h3>Opgaveliste</h3>
         <div className='headlines-container'>
             <ul>
-                <li className='description-element'>Opgave</li>
+                <li className='description-element'>Overskrift</li>
                 <li>Dato</li>
                 <li>Type</li>
                 <li>Proritet</li>
